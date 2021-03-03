@@ -1,6 +1,6 @@
 ---
 title: "Simulation-based inference - confidence intervals"
-author: ""
+author: "Alejandro Meza"
 date: "March 3, 2021"
 output: html_document
 editor_options: 
@@ -12,6 +12,12 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
                       comment = "#>", highlight = TRUE,
                       fig.align = "center")
 ```
+
+```{r config}
+library(usethis)
+use_git_config(user.name = "mezap", user.email = "alejandro.meza@duke.edu")
+```
+
 
 ## Main ideas
 
